@@ -1,0 +1,70 @@
+.list_hedaer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-bottom: 1px solid;
+    background-color: rgb(221 224 224);
+}
+.all_listdata{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: rgb(165, 102, 197); */
+    max-width: 600px;
+}
+.image_set_user{
+    width: 15%;
+}
+.user_data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 102, 197);
+    border-bottom: 1px solid;
+}
+.all_list_page{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user_pic{
+    width: 25px;
+    height: 30px;
+    position: relative;
+}
+.user_detalis{
+   padding: 10px;
+   background-color: rgb(221 224 224);
+   position: relative;
+}
+.chat_button{
+    float:right ;
+}
+.all_login_user :nth-of-type(even){
+    background-color: white;
+}
+/* .user_detalis :nth-child(even){
+    background-color: brown;
+} */
+.circle{
+    position: absolute;
+    font-size: 9px;
+    background-color: red !important;
+    border-radius: 50%;
+    color: red;
+    padding: 2px 3px;
+    bottom: 10%;
+    left: 5%;
+
+}
+.circle_g{
+    position: absolute;
+    font-size: 9px;
+    background-color: green;
+    border-radius: 50%;
+    color: green;
+    padding: 2px 3px;
+    bottom: 10%;
+    left: 5%;
+}

@@ -1,0 +1,61 @@
+.logo_img{
+    width: 50px;
+    height: 50px;
+}
+.name_app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 102, 197);
+}
+p{
+    margin: 0px !important;
+}
+.all_masg{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 850px;
+    min-width: 70%;
+    background-color: rgb(221 224 224);
+    /* height: 600px;   */
+}
+.full_Page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.send_msg{
+    display: flex;
+}
+.msg_area{
+    height: 512px;
+    overflow-y: auto;
+}
+.outgoing_msg{
+    background-color: rgb(186 107 204 / 87%);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+    float: right;
+    clear: both;
+    margin-top: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.incoming_msg{
+    background-color: rgb(186 107 204 / 87%);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+    float: left;
+    clear: both;
+    margin-top: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.typing_msg{
+    position: absolute;
+    bottom: 16%;
+}

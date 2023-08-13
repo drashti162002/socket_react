@@ -1,0 +1,76 @@
+.all_user_full_page{
+    height: 100vh;
+}
+.image_user_background{
+    background-image: url('../icons/background_image.jpeg');
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.logo_login_page{
+    /* width: 10%; */
+    width: 50px;
+}
+.image_logo_col{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.forget_password{
+    text-align: right;
+}
+.sign_in_button{
+    background-color: #5932EA;
+    color: white;
+    font-weight: 700;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: 1px solid #5932EA;
+}
+.sign_in_button:hover{
+    background-color: #5932EA;
+    color: white;
+    border: 1px solid #5932EA;
+}
+.sign_in_button:active{
+    background-color: #5932EA !important;
+    color: white !important;
+    border: 1px solid #5932EA;
+
+}
+
+.sign_button_main{
+    text-align: center;
+}
+.background_white_all_page{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.all_contant_cenetr{
+    justify-content: center;
+    align-items:center;
+}
+.all_col_center{
+    align-items: center;
+}
+.all_contant_cenetr input:focus{
+    box-shadow: none;
+    border-color: #5932EA;
+}
+.all_contant_cenetr .form-label{
+   font-size: 14px;
+}
+.errormsg{
+    color: red;
+    font-size: 14px;
+}
+.color_link{
+    color: #5932EA;
+    font-weight: 700;
+}
+.btn-check:checked+.btn:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible, .btn:first-child:active:focus-visible, :not(.btn-check)+.btn:active:focus-visible {
+    box-shadow: none !important;
+}

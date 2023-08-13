@@ -1,0 +1,65 @@
+.form-check-input{
+    border: 3px solid #5932EA;
+}
+.form-check-input:checked{
+    background-color: #5932EA;
+    border-color: #5932EA;
+}
+.form-check-input[type=checkbox]{
+    border-radius: 0px;
+}
+.all_userregister_full_page{
+    /* min-height: 100vh; */
+    height: 100vh;
+}
+.btn-close:focus {
+    box-shadow: none !important;
+}
+.close_in_button{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.submit_in_button{
+    background-color: #5932EA;
+    color: white;
+    font-weight: 700;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: 1px solid #5932EA;
+}
+.small_screen_back_height{
+    height:100vh;
+}
+.modelinput:focus{
+    box-shadow: none;
+    border: 1px solid #5932EA;
+}
+
+div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:active {
+    background-image:none;
+}
+div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:hover {
+    background-image: none;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+    box-shadow: none;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #5932EA;
+    color: white;
+    font-weight: 700;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: 1px solid #5932EA;
+}
+
+
+@media screen and (min-width: 1px) and (max-width: 992px){
+    .small_screen_back_height{
+        height:0vh;
+    }
+}
